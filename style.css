@@ -55,14 +55,13 @@ margin-right: 4rem;
 }
 
 .First-Half{
-  background-image: url(https://images.unsplash.com/photo-1637512619255-9fe9445a06c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80);
-    height: 37rem;
+    background-image: url(https://images.unsplash.com/photo-1637512619255-9fe9445a06c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80);
+    height: 50rem;
     line-height: 4rem;
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
-    background-repeat: no-repeat
-}
+    }
 
 .First-Half h1{
     padding-left: 4rem;
@@ -79,9 +78,9 @@ margin-right: 4rem;
     margin-right: 41rem;
     color: #ffffff;
     font-family: "Roboto", Sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: normal;
-    line-height: 1.7em;
+    line-height: 1.9em;
 }
     
 .Secound-Half{
@@ -334,17 +333,13 @@ margin-top: 40px;
 .copyright{
     color: white;
     font-family: "Roboto", Sans-serif;
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: normal;
-    line-height: 1.6em;}
+    line-height: 1.6em;
+    margin-right: 60px;
+}
 
-.sociallogo{
-    margin-right: 50px;
-}
-.sociallogo li a{
-    margin: 10px;
-    
-}
+
 
 
 /* --------------media query------------------- */
@@ -389,9 +384,9 @@ margin-top: 40px;
         margin-right: 0rem;
         color: #ffffff;
         font-family: "Roboto", Sans-serif;
-        font-size: 1rem;
+        font-size: 1.3rem;
         font-weight: normal;
-        line-height: 2.1rem;
+        line-height: 2.5rem;
         padding-right: 2rem;
         text-align: justify;
     }
