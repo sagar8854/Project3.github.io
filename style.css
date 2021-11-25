@@ -3,15 +3,22 @@
     padding: 0;
     box-sizing: border-box;
     font-display: swap;
+    text-decoration: none;
   
     
-
+/* ------------------------------------------------------------------- */
 }
 body{
     background-color: gainsboro;
 
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
+
+/* ------------------------------------------------------------------------- */
 .Social-logo{   
     display: flex;
     align-items: center;
@@ -39,12 +46,12 @@ body{
     margin-left: 2rem;
 }
 
-.button{
+ul{
 margin-right: 4rem;
 
 }
 
-.button ul li a{
+ul li a{
     text-decoration: none;
     margin: 1rem;
     color: white;
@@ -54,14 +61,26 @@ margin-right: 4rem;
     font-style: normal;
 }
 
+#check{
+    display: none;
+}
+
+.bar{
+    display: none;
+}
+/* --------------------------------------------------------------------------------------------------- */
+
+
+
+
 .First-Half{
-    background-image: url(https://images.unsplash.com/photo-1637512619255-9fe9445a06c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80);
-    height: 50rem;
+  background-image: url(https://images.unsplash.com/photo-1637512619255-9fe9445a06c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80);
+    height: 45rem;
     line-height: 4rem;
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
-    }
+}
 
 .First-Half h1{
     padding-left: 4rem;
@@ -78,44 +97,39 @@ margin-right: 4rem;
     margin-right: 41rem;
     color: #ffffff;
     font-family: "Roboto", Sans-serif;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: normal;
-    line-height: 1.9em;
+    line-height: 1.7em;
 }
     
+/* ----------------------------------------------------------------------------------------------------- */
+
+
 .Secound-Half{
    display: flex;
-   width: 100%;
-   background-color:gainsboro;
    flex-wrap: wrap;
-   
+   margin-top: 40px;   
+   justify-content: space-between;
+   padding: 50px;
 }
 .secound-h3{
-    text-align: left;
-    margin-left: 8.1rem;
-    font-size: 17px;
-    text-transform: uppercase;
-    line-height: 1.2em;
-    letter-spacing: 2px;
-
-   
+   width: 30%;
+   text-align: left; 
 }
-.Secound-Half p{
-    text-align: left;
-    margin-top: 1rem;
-    width: 18rem;
-    margin-left: 8.3rem;
+.sec-p{
     color: #464646;
     font-family: "Roboto", Sans-serif;
-    font-size: 0.9rem;
+    font-size: 18px;
     font-weight: 300;
     line-height: 1.5em;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
 }
 
-.label{
-margin-left: 100px;
-margin-top: 40px;
-}
+/* -------------------------------- */
+
+
 .Third{
     background-color: gainsboro;
 }
@@ -123,7 +137,6 @@ margin-top: 40px;
 .viewour{
     padding-left: 4rem;
     background-color: gainsboro;
-    padding-top: 5rem;
     font-family: "Questrial", Sans-serif;
     font-size: 3em;
     font-style: normal;
@@ -137,6 +150,7 @@ margin-top: 40px;
     font-size: 0.9rem;
     font-weight: normal;
     line-height: 1.6rem;
+    text-align: justify;
     
 }
 
@@ -145,7 +159,7 @@ margin-top: 40px;
     flex-wrap: wrap;
 }
 .photo{
-    width: 28.1rem;
+    width: 33.3%;
 }
 .five{
     display: flex;
@@ -160,7 +174,7 @@ margin-top: 40px;
     font-style: italic;
     letter-spacing: 0.3px;
     margin-top: 11px;
-    margin-top: 6rem;
+    margin-top: 5rem;
     margin-left: 5rem;
 }
 .MOC{
@@ -168,16 +182,16 @@ margin-top: 40px;
     font-family: "Roboto", Sans-serif;
     font-size: 17px;
     font-weight: 300;
-    line-height: 1.8rem;
-    margin-top: 3rem;
+    line-height: 1.6rem;
+    margin-top: 2rem;
     font-style: normal;
 
 }
 
 .fivephoto{
-    width: 50rem;
+    width: 600px;
     padding: 5rem;
-    height: 35rem;
+    height: 500px;
     position: relative;
 }
 .KenHehir{
@@ -185,6 +199,7 @@ margin-top: 40px;
     text-align: right;
     font-family: "Roboto", Sans-serif;
     font-style: normal;
+    margin-top: 20px;
 
 
 
@@ -223,7 +238,7 @@ margin-top: 40px;
     margin-bottom: 3rem;
     color: #3573A8;
     font-family: "Questrial", Sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
     font-style: italic;
     letter-spacing: 0.3px;
@@ -326,18 +341,17 @@ margin-top: 40px;
 
 }
 .footerlogo{
-    width: 100px;
+    width: 120px;
     margin-left: 50px;
 }
 
-.copyright{
+.copyright {
     color: white;
-    font-family: "Roboto", Sans-serif;
-    font-size: 1rem;
+    font-family: Roboto, sans-serif;
+    font-size: 25px;
     font-weight: normal;
     line-height: 1.6em;
-    margin-right: 60px;
-}
+    margin-right: 51px;}
 
 
 
@@ -357,7 +371,7 @@ margin-top: 40px;
 .Social-logo ul {
     margin-right: 0rem;
 }
-.button ul{
+ul{
     background-color: turquoise;
     width: 100%;
     margin: 0px;
@@ -365,192 +379,178 @@ margin-top: 40px;
     text-align: center;
     position: fixed;
     left: -100%;
+    height: 50px;
+    transition: .9s;
+    margin-top: 175px;
+
 }
-.button ul li a{
+ul li a{
+    font-size: 10px;
+    margin: 14px;
+    line-height: 50px;
+    color: black;
+}
+
+.bar{
     display: block;
-    margin: 30px;
-}
-
-.First-Half h1 {
-    padding-left: 2rem;
-    padding-right: 2rem;
-    font-size: 2.2rem;
-    font-weight: 600;
-    line-height: 3rem;
-    margin-top: 55px;}
-
-    .First-Half p {
-        padding-left: 2rem;
-        margin-right: 0rem;
-        color: #ffffff;
-        font-family: "Roboto", Sans-serif;
-        font-size: 1.3rem;
-        font-weight: normal;
-        line-height: 2.5rem;
-        padding-right: 2rem;
-        text-align: justify;
-    }
-
-    .Secound-Half p{
-        text-align: justify;
-        margin: 0px;
-        padding: 0px;
-        margin-left: 40px;
-    }
-
-    .secound-h3{
-        margin: 20px;
-        text-align: center;
-        font-size: 13px;
-        margin-left: 60px;
-
-    }
-
-    .label {
-        margin-left: 165px;
-        }
+    margin-right: 30px;
     
-        .viewour {
-
-        padding-left: 3rem;
-        font-size: 2rem; }
-
-.para {
-    padding: 3rem;
-    text-align: justify;
+}
+.Nav-Bar{
+    position: fixed;
+    margin-top: -50px;
+    width: 100%;
 }
 
+#check:checked ~ ul {
+    left: 0px;
+}
+
+.First-Half h1{
+
+    font-size: 2.5rem;
+}
+
+.First-Half p {
+    padding-left: 2rem;
+    margin-right: 1rem;
+    color: #ffffff;
+    font-family: "Roboto", Sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1.7em;
+    margin-top: -40px;
+}
+.First-Half{
+
+    height: 450px;
+}
+
+.Secound-Half{
+    display: flex;
+    margin-top: 40px;   
+    flex-direction: column;
+ }
+ .secound-h3{
+    text-align: center;
+    width: 100%;
+ }
+ .Secound-Half p{
+     color: #464646;
+     font-family: "Roboto", Sans-serif;
+     font-size: 0.9rem;
+     font-weight: 300;
+     line-height: 1.5em;
+     margin-top: 30px;
+     text-align: justify;
+
+ }
 .five{
+
+    display: flex;
     flex-direction: column;
 }
-
+ .fivephoto {
+    width: 100%;
+    padding: 5rem;
+    height: 400px;
+    position: static;
+}
 .Theyh1{
-    margin-left: 3rem;
-    margin-right: 3rem;
-    text-align: left;
-    font-size: .9rem;
-    line-height: 2.5rem;
+    margin-left: 20px;
+    font-size: 20px;
 }
 
 .MOC{
+    font-size: 14px;
+    padding: 20px;
     text-align: justify;
+    padding-right: 40px;
+}
+
+.KenHehir{
+    margin-right: 50px;
+    font-size: 18px;
 }
 
 .FormerCEO{
-    margin-top: -10px;
-}
-
-.fivephoto{
-    width: 100%;
-    height: 300px;
-    padding: 50px;
+    margin-right: 30px;
 }
 
 .six{
-    padding: 0rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    margin: 0;
+    padding: 0;
 }
 .Meeth1{
-    margin-top: 30px;
-    margin-bottom: 2rem;
+font-size: 30px;
+margin-left:30px;
+margin-top: 30px;
+
 }
 
 .startedp{
+    margin-left:30px;
+    margin-top: -10px;
+    margin-right: 30px;
     text-align: justify;
-    margin-bottom: 2rem;
+
 }
 
 .startedp2{
-    font-size: 1.3rem;
+    margin-left:30px;
+    margin-top: -10px;
+    margin-right: 30px;
     text-align: justify;
-    margin-bottom: 2rem;
+
 }
 
 .startedp3{
+    margin-left:30px;
+    margin-top: -10px;
+    margin-right: 30px;
     text-align: justify;
-    margin-bottom: 2rem;
 }
 
-.eight{
-    justify-content: left;
-    padding-left: 2rem;
+.sevenphoto{
+    height: auto;
+    width: 100%;
+    margin-top: 50px;
 }
-
-
-.Jasonnine1{
-    margin-top: 10px;
-    margin-left: 60px;
-}
-.Jasonnine2{
-    margin-left: 30px;
-    margin-top: 10px;
-}
-.Jasonnine3{
-    margin-left: 40px;
-    margin-top: 10px;
-}
-.Jasonnineimg{
-    width: 30px;
-    margin: 0px;
-}
-
 .Jason{
-    font-size: 13px;
-    width: 30%;
-    
+    font-size: 10px;
 }
+.last{
+justify-content: center;}
 
-.Chris{
-    font-size: 13px;
-    width: 30%;
-
+.Jasonnine{
+   width: 50px;
+   margin: 18px;
 }
-
-.Jeff{
-    font-size: 13px;
-}
-.Let{
-    font-size: 1.6rem;
-    margin-left: 0px;
-    padding-left: 3rem;
-    margin-top: 65px;
-    margin-bottom: 2rem;
+.Let {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 29px;
 }
 .elevanp{
-    padding: 0px;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding: 30px;
     text-align: justify;
-    margin-bottom: 2rem;
+    
 }
+.copyright {
 
-
-.footer{
+    font-size: 12px;
+    line-height: .1em;
+    margin-right: 20px;
+}
+.footerlogo {
+    width: 80px;
+    margin-left: 20px;
+}
+.viewour{
+    font-size: 30px;
     padding: 0px;
-    margin: 0px;
-    justify-content: left;
+    padding-left: 50px;
+    margin-top: -30px;
+}
 }
 
-.footerlogo{
-    width: 50px;
-    margin-left: 30px;
-
-}
-
-.copyright{
-    font-size: 10px;
-    margin-left: 40px;
-}
-
-.photo {
-    width: 100%;
-    padding: 10px;
-}
-.sevenphoto{
-    width: 100%;
-    height: 21rem;
-    padding: 1rem;
-
-}
-}
